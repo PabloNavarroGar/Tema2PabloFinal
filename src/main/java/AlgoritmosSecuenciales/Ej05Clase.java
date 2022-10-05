@@ -33,7 +33,7 @@ public class Ej05Clase {
       
         int numeroGrupos;
         int horasProfesorImpartidas;
-        
+        int profesoresNecesarios;
         
        String horasString= JOptionPane.showInputDialog(" Introduce las horas que va a trabajar el profesor  ");
         
@@ -56,7 +56,9 @@ public class Ej05Clase {
         JOptionPane.showMessageDialog(null, " El numero de clases del instituto es de  " + numeroGrupos);
         
         
-       JOptionPane.showMessageDialog(null, " El numero de profesores que se necesitan son : " +HORASCLASE*numeroGrupos/horasProfesorImpartidas );
+        profesoresNecesarios= (HORASCLASE*numeroGrupos)/horasProfesorImpartidas;
+        
+       JOptionPane.showMessageDialog(null, " El numero de profesores que se necesitan son : " +profesoresNecesarios );
         
         
         
