@@ -20,15 +20,37 @@ public class Ej03NotaMedia {
         // TODO code application logic here
         
         //Variables
-         double nota1= 6.75;
-         double nota2= 7.00;
-         double nota3= 8.50;
+         float primeraNota;
+         float segundaNota;
+         float terceraNota;
          
+         String nota1;
+         String nota2;
+         String nota3;
          //variable constante
-         final double NOTAMEDIA;
+         float NOTAMEDIA;
          
-         NOTAMEDIA= (nota1 + nota2 + nota3) /3;
+         nota1 = JOptionPane.showInputDialog(" Primera nota");
+         //Parse en Float
          
+         primeraNota = Float.parseFloat(nota1);
+         
+        
+         nota2 = JOptionPane.showInputDialog(" Segunda notaa");
+         //Parse en Float
+         
+         segundaNota = Float.parseFloat(nota2);
+         
+        
+          nota3 = JOptionPane.showInputDialog(" Tercera nota");
+         //Parse en Float
+         
+         terceraNota = Float.parseFloat(nota3);
+         
+         
+         NOTAMEDIA= (primeraNota + segundaNota + terceraNota) /3;
+         
+      
          //Nota media
          //System.out.println(" La nota media es : %2.f" + notaMedia);
          
