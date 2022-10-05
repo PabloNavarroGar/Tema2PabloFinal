@@ -35,6 +35,11 @@ public class JOptionVentanas {
         //Se pone Null de momento
         JOptionPane.showMessageDialog(null, "Tu apellido es "+apellido);
         
+        
+        
+        
+        
+        
          //ventana del peso
         String pesoString = JOptionPane.showInputDialog( " Introduce el peso");
         
