@@ -36,7 +36,7 @@ public class Ej03NotaMedia {
          primeraNota = Float.parseFloat(nota1);
          
         
-         nota2 = JOptionPane.showInputDialog(" Segunda notaa");
+         nota2 = JOptionPane.showInputDialog(" Segunda nota");
          //Parse en Float
          
          segundaNota = Float.parseFloat(nota2);
