@@ -21,22 +21,23 @@ public class Ej09Iva {
         
         //Variables
         double articulo ;
-        
+        double ivaTotal;
+        //Variable constante
         final double IVA= 0.21;
         
       
         
         
-        
-         String articuloString = JOptionPane.showInputDialog( " Introduce el precio");
+        //Ventana de introduccion de datos
+         String articuloString = JOptionPane.showInputDialog( " Introduce el precio del articulo");
         
         //Transformacion de un dato(double) a un string
         articulo = Double.parseDouble(articuloString);
         
-        //peso+=10;
-        
-        
-        JOptionPane.showMessageDialog(null, " Con el IVA en total pasa a valer "+(articulo*IVA+articulo));
+       
+        ivaTotal= articulo*IVA;
+        //Resultado
+        JOptionPane.showMessageDialog(null, " Con el IVA en total pasa a valer "+(ivaTotal+articulo));
        
 
         

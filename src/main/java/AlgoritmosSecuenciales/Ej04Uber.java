@@ -34,20 +34,17 @@ public class Ej04Uber {
         
         
         
-        //Transformacion de un dato(double) a un string
+        //Panel de poner los kilometros
         
         String kilometrosString = JOptionPane.showInputDialog( " Kilometros de distancia");
         
-        
+        //Transformacion de un dato(double) a un string
         kilometros = Double.parseDouble(kilometrosString);
         
         
-       //FORMULA presupuesto = kilometros *KILOMETRORECORRIDO/SERVICIO
+       //FORMULA y operacion
        
        presupuesto= SERVICIO+(KILOMETRORECORRIDO*kilometros);
-        
-        
-        
         
         
         //Ventana Kilometros

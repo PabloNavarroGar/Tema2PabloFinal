@@ -38,7 +38,7 @@ public class Ej08Hospital {
 
         System.out.println(" Introduce el presupuesto del que disponemos este año ");
 
-        //Usando teclado y el metodo nextint vamos a leer un numero
+        //Usando teclado y el metodo nextDouble vamos a leer un numero
         presupuestoAnual = teclado.nextDouble();
 
         //FORMULA PRESPUESTO x = prespuesto * 40/100

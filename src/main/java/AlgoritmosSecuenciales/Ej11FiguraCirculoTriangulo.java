@@ -43,7 +43,7 @@ public class Ej11FiguraCirculoTriangulo {
         //Resultado del panel
         JOptionPane.showMessageDialog(null, " El lado H mide  " + H);
         
-        
+        //Calculo de area de la circuferencia
         areaBase = Math.PI*Math.pow(R,2);
         
         areaLateral = Math.PI*R*H;

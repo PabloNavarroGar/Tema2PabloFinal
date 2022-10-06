@@ -28,13 +28,13 @@ public class Ej05Clase {
         que tiene el centro escolar*/
      
         
-        //variables
+        //variables constante
         final int HORASCLASE= 30;
-      
+        //variables
         int numeroGrupos;
         int horasProfesorImpartidas;
         int profesoresNecesarios;
-        
+        //Panel de introduccion de hora con un parse para pasar el dato(int) a string
        String horasString= JOptionPane.showInputDialog(" Introduce las horas que va a trabajar el profesor  ");
         
         //Transformacion de un dato(int) a un string
@@ -55,7 +55,7 @@ public class Ej05Clase {
         //Resultado del panel
         JOptionPane.showMessageDialog(null, " El numero de clases del instituto es de  " + numeroGrupos);
         
-        
+        //Variable y formula
         profesoresNecesarios= (HORASCLASE*numeroGrupos)/horasProfesorImpartidas;
         
        JOptionPane.showMessageDialog(null, " El numero de profesores que se necesitan son : " +profesoresNecesarios );

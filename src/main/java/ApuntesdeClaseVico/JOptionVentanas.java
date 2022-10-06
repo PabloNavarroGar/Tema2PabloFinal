@@ -28,6 +28,7 @@ public class JOptionVentanas {
         
          
         //Los 2 shows son los que vamos a usar
+        //esta ventana es la mas sencilla, necesitamos antes declarar la variable del string
         apellido = JOptionPane.showInputDialog(" Introduce tu apellido ");
         
         
@@ -41,19 +42,20 @@ public class JOptionVentanas {
         
         
          //ventana del peso
+         //en esta podemos crearla directamente con el comando String variablenombreString con el parse para tranformar un dato en un string
         String pesoString = JOptionPane.showInputDialog( " Introduce el peso");
         
         //Transformacion de un dato(double) a un string
-        peso = Double.parseDouble(pesoString);
+       // peso = Double.parseDouble(pesoString);
         
-        peso+=10;
+        //peso+=10;
         
         
-        JOptionPane.showMessageDialog(null, "Tu peso es "+peso);
+        //JOptionPane.showMessageDialog(null, "Tu peso es "+peso);
         
         //Ventana Estatura int
         
-         String estaturaString = JOptionPane.showInputDialog( " Introduce la estarua");
+        // String estaturaString = JOptionPane.showInputDialog( " Introduce la estarua");
         
         
         
@@ -61,7 +63,7 @@ public class JOptionVentanas {
         
         //Ventana boolean
         
-        boolean b = peso >= 50 || peso <= 100;
+       //boolean b = peso >= 50 || peso <= 100;
         
         
         

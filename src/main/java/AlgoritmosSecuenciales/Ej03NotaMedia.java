@@ -27,9 +27,9 @@ public class Ej03NotaMedia {
          String nota1;
          String nota2;
          String nota3;
-         //variable constante
-         float NOTAMEDIA;
          
+         float NOTAMEDIA;
+         //panel de introduccion de datos con el string de nota
          nota1 = JOptionPane.showInputDialog(" Primera nota");
          //Parse en Float
          
@@ -47,13 +47,13 @@ public class Ej03NotaMedia {
          
          terceraNota = Float.parseFloat(nota3);
          
-         
+         //FORMULA de otener nota media
          NOTAMEDIA= (primeraNota + segundaNota + terceraNota) /3;
          
       
          //Nota media
          //System.out.println(" La nota media es : %2.f" + notaMedia);
-         
+         //Panel que muestra la nota media
          JOptionPane.showMessageDialog(null, " La nota media es = "+NOTAMEDIA);
         
         
