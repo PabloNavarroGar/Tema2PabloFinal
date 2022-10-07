@@ -4,7 +4,6 @@
  */
 package AlgoritmosSecuenciales;
 
-
 import java.util.Scanner;
 
 /**
@@ -25,7 +24,7 @@ public class Ej02Radiodeuncirculo {
 
         //constantes
         final double NUMEROPI = 3.14;
-        
+
         //Entrada de datos por teclado
         Scanner teclado = new Scanner(System.in);
 

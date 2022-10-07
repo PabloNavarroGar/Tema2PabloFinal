@@ -4,7 +4,6 @@
  */
 package AlgoritmosSecuenciales;
 
-
 import javax.swing.JOptionPane;
 
 /**
@@ -18,36 +17,25 @@ public class Ej09Iva {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         //Variables
-        double articulo ;
+        double articulo;
         double ivaTotal;
         //Variable constante
-        final double IVA= 0.21;
-        
-      
-        
-        
+        final double IVA = 0.21;
+
         //Ventana de introduccion de datos
-         String articuloString = JOptionPane.showInputDialog( " Introduce el precio del articulo");
-        
+        String articuloString = JOptionPane.showInputDialog(" "
+                + "Introduce el precio del articulo");
+
         //Transformacion de un dato(double) a un string
         articulo = Double.parseDouble(articuloString);
-        
-       
-        ivaTotal= articulo*IVA;
-        //Resultado
-        JOptionPane.showMessageDialog(null, " Con el IVA en total pasa a valer "+(ivaTotal+articulo));
-       
 
-        
-       
-       
-        
-        
-        
-        
-        
+        ivaTotal = articulo * IVA;
+        //Resultado
+        JOptionPane.showMessageDialog(null, " "
+                + "Con el IVA en total pasa a valer " + (ivaTotal + articulo));
+
     }
-    
+
 }

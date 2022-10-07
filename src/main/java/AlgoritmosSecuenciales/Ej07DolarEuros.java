@@ -26,13 +26,15 @@ public class Ej07DolarEuros {
         // final double DOLAR= 0.99;
         //final double EURO= 1;
         //Introduccion de datos
-        String euroString = JOptionPane.showInputDialog(" Introduce los euros que quieres pasar");
+        String euroString = JOptionPane.showInputDialog(" "
+                + "Introduce los euros que quieres pasar");
 
         euro = Double.parseDouble(euroString);
 
         //Datos
 
-        JOptionPane.showMessageDialog(null, +euro + "€ Son " +(euro*dolar)/euro+"$" );
+        JOptionPane.showMessageDialog(null, +euro + "€ "
+                + "Son " +(euro*dolar)/euro+"$" );
 
     }
 

@@ -4,7 +4,6 @@
  */
 package AlgoritmosSecuenciales;
 
-
 import javax.swing.JOptionPane;
 
 /**
@@ -18,8 +17,7 @@ public class Ej10Trapecio {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
+
         /*
         Una empresa constructora se dedica a realizar
         bloques de pisos en parcelas como las que figuran
@@ -27,48 +25,47 @@ public class Ej10Trapecio {
         la parcela según las medidas A, B y C. Realiza el ejercicio 
         usando JOption para solicitar y mostrar datos al usuario.
 
-        */
-        
+         */
         //variables
-        
-        double A,B,C;
-        
-        
+        double a, b, c;
+
         //Base1
         //Panel introduccion de datos
-        String baseString = JOptionPane.showInputDialog(" Introduce cuanto mide la base 1 del trapecio");
+        String baseString = JOptionPane.showInputDialog(" Introduce "
+                + "cuanto mide la base 1 del trapecio");
 
         //Transformacion de un dato(double) a un string
-        A = Double.parseDouble(baseString);
-        
+        a = Double.parseDouble(baseString);
+
         //Resultado del panel
-        JOptionPane.showMessageDialog(null, " La base 1 del trapecio mide " + A);
-        
+        JOptionPane.showMessageDialog(null, " La base 1 del trapecio mide " + a);
+
         //Base2
         //Panel introduccion de datos
-        String baseDosString = JOptionPane.showInputDialog(" Introduce cuanto mide la base 2 del trapecio");
+        String baseDosString = JOptionPane.showInputDialog(" Introduce "
+                + "cuanto mide la base 2 del trapecio");
 
         //Transformacion de un dato(double) a un string
-        B = Double.parseDouble(baseDosString);
-        
+        b = Double.parseDouble(baseDosString);
+
         //Resultado del panel
-        JOptionPane.showMessageDialog(null, " La base 2 del trapecio mide " + B);
-        
+        JOptionPane.showMessageDialog(null, " La base 2 del trapecio mide " + b);
+
         //Altura
         //Panel introduccion de datos
-        String alturaString = JOptionPane.showInputDialog(" Introduce cuanto mide la altura  del trapecio");
+        String alturaString = JOptionPane.showInputDialog(" Introduce "
+                + " cuanto mide la altura  del trapecio");
 
         //Transformacion de un dato(double) a un string
-        C = Double.parseDouble(alturaString);
-        
+        c = Double.parseDouble(alturaString);
+
         //Resultado del panel
-        JOptionPane.showMessageDialog(null, " La altura del trapecio mide " + C);
-        
-        
-        JOptionPane.showMessageDialog(null, " El Area del trapecio es de : " + (A + B)*C/2);
-        
-        
-        
+        JOptionPane.showMessageDialog(null, " La altura "
+                + "del trapecio mide " + c);
+
+        JOptionPane.showMessageDialog(null, " El Area "
+                + "del trapecio es de : " + (a + b) * c / 2);
+
     }
-    
+
 }

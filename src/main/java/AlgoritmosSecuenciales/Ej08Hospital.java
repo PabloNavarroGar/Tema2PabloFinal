@@ -4,7 +4,6 @@
  */
 package AlgoritmosSecuenciales;
 
-
 import java.util.Scanner;
 
 /**
@@ -20,19 +19,16 @@ public class Ej08Hospital {
         // TODO code application logic here
 
         //Variables
-        
-        
         double presupuestoAnual;
         double presupuestoGinecologiaTotal;
         double presupuestoTraumatologiaTotal;
         double presupuestoPedriatiaTotal;
-        
+
         //Constantes
         final double PRESUPUESTOGINECOLOGIA = 40;
         final double PRESUPUESTOTRAUMATOLOGIA = 30;
-        final double PRESUPUESTOPEDRIATIA  = 30;
-        
-        
+        final double PRESUPUESTOPEDRIATIA = 30;
+
         //teclado, darle a la bombilla y a la primera opcion 
         Scanner teclado = new Scanner(System.in);
 
@@ -42,7 +38,7 @@ public class Ej08Hospital {
         presupuestoAnual = teclado.nextDouble();
 
         //FORMULA PRESPUESTO x = prespuesto * 40/100
-        presupuestoGinecologiaTotal= presupuestoAnual * PRESUPUESTOGINECOLOGIA / 100;
+        presupuestoGinecologiaTotal = presupuestoAnual * PRESUPUESTOGINECOLOGIA / 100;
 
         System.out.println(" El presupuesto de Ginecologia de este año es : " + presupuestoGinecologiaTotal);
 
@@ -55,8 +51,8 @@ public class Ej08Hospital {
         presupuestoPedriatiaTotal = presupuestoAnual * PRESUPUESTOPEDRIATIA / 100;
 
         System.out.println(" El presupuesto de Ginecologia de este año es : " + presupuestoPedriatiaTotal);
-        
-        System.out.printf(" hola muendo " , presupuestoTraumatologiaTotal);
+
+        System.out.printf(" hola muendo ", presupuestoTraumatologiaTotal);
     }
 
 }
