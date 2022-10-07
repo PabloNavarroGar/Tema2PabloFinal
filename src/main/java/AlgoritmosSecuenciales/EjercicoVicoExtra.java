@@ -28,14 +28,16 @@ public class EjercicoVicoExtra {
         double sueldo;
         int mesesCobrando;
         double sueldoTotal;
+        
+        
 
         Scanner teclado = new Scanner(System.in);
 
         nombre = JOptionPane.showInputDialog(" ¿Como te llamas?");
 
-        apellido1 = JOptionPane.showInputDialog(" ¿Introduce su primer apellido");
+        apellido1 = JOptionPane.showInputDialog(" ¿Introduce tu primer apellido");
 
-        apellido2 = JOptionPane.showInputDialog(" ¿Introduce su segundo apellido");
+        apellido2 = JOptionPane.showInputDialog(" ¿Introduce tu segundo apellido");
 
         System.out.println(" ¿Cuanto cobras al mes? ");
 
@@ -54,6 +56,7 @@ public class EjercicoVicoExtra {
                          
                          En los ultimos %d meses.
                          
+                         Eres hijo de Sol y enemigo del Viento.
                          """.formatted(nombre,
                 apellido1,
                 apellido2,
