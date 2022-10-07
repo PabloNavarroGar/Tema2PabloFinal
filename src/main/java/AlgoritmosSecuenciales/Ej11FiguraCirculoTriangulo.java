@@ -43,9 +43,9 @@ public class Ej11FiguraCirculoTriangulo {
         JOptionPane.showMessageDialog(null, " El lado H mide  " + h);
 
         //Calculo de area de la circuferencia
-        areaSemicirculo = Math.PI * Math.pow(r, 2);
+        areaSemicirculo = Math.PI * Math.pow(r, 2)/2;
 
-        areaTriangulo = Math.hypot(h, 2) * 2;
+        areaTriangulo = Math.hypot(h, 2)/2;
 
         areaTotal = areaSemicirculo + areaTriangulo;
 
